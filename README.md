@@ -1,9 +1,7 @@
 # RISC-V_Tape_Out_Week_5
 ## Floorplan and Placement of GCD 
 
-This lab focuses on using **OpenROAD Flow Scripts** to carry out the **Floorplan** and **Placement** stages for the **GCD** circuit. It demonstrates the transition from logic-level design to the **physical layout** stage in the VLSI backend flow.
-
----
+This laboratory exercise concentrates on utilizing OpenROAD Flow Scripts to execute the Floorplan and Placement phases for the GCD circuit. It illustrates the progression from logic-level design to the physical layout phase in the VLSI backend workflow.
 
 ---
 
