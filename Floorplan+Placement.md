@@ -42,7 +42,7 @@ cmake --build build --config Release --target install -v
 
 This will take an hour or more be warned.
 
-![ortools](Images/ortools.png)
+
 
 ---
 
@@ -72,7 +72,7 @@ sudo cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-Wno-error" -DCMAKE_
 
 This too will take more than an hour.
 
-![oproad](Images/oproad.png)
+
 
 ---
 
@@ -84,7 +84,7 @@ Clone the [OpenROAD Flow Scripts repo](https://github.com/The-OpenROAD-Project/O
 git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
 cd OpenROAD-flow-scripts
 ```
-![flowscipts](Images/flowscripts.png)
+
 
 Then to map the installed OpenROAD, and previously installed OpenSTA and Yosys, simply following the commands below,
 
@@ -114,7 +114,7 @@ To run floorplan of this module, follow the below commands
 make DESIGN_CONFIG=./designs/sky130hd/gcd/config.mk floorplan
 ```
 
-![floorplan](Images/floorplan.png)
+![floorplan](https://github.com/Rahul-Sivesh-11/RISC-V_Tape_Out_Week_5/blob/main/Images/Screenshot%202025-10-26%20000950.png)
 
 then, to view the gui,
 
@@ -122,7 +122,7 @@ then, to view the gui,
 make DESIGN_CONFIG=./designs/sky130hd/gcd/config.mk gui_floorplan
 ```
 
-![floorplangui](Images/floorplangui.png)
+![floorplangui](https://github.com/Rahul-Sivesh-11/RISC-V_Tape_Out_Week_5/blob/main/Images/Screenshot%202025-10-26%20001127.png)
 
 ---
 
@@ -134,7 +134,7 @@ To run placement for this module, use the following command:
 make DESIGN_CONFIG=./designs/sky130hd/gcd/config.mk place
 ```  
 
-![placement](Images/placement.png)
+![placement](https://github.com/Rahul-Sivesh-11/RISC-V_Tape_Out_Week_5/blob/main/Images/Screenshot%202025-10-26%20001148.png)
 
 This will generate the placement for the module.  
 
@@ -144,9 +144,7 @@ To view the placement in the GUI, run:
 make DESIGN_CONFIG=./designs/sky130hd/gcd/config.mk gui_place
 ```
 
-![placementgui](Images/placementgui.png)
 
-![skycells](Images/skycells.png)
 
 ---
 
